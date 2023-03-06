@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+       <div class="container">
+         <div class="comandi">
+              <div class="infoBombe">
+                   <p>Seleziona <b>facile</b> per inserire solo 16 bombe nel gioco,<b>medio</b>  per 20 , <b>difficile</b> per 26 </p>
+              </div>
+              <input type="text" name="" placeholder="inserire solo: facile medio difficile" id="livelloBombe">
+              <div class="infoBombe">
+                <p>Seleziona <b>facile</b> per indovinare 5 numeri,<b>medio</b>  per 15 , <b>difficile</b> per 25 </p>
+           </div>
+             <input type="text" name="" placeholder="quanti numeri vuoi dover indovinare ?" id="livelloNumeri">
+
+             <div class="livelloBombe box">
+                <p id="livBomb"></p>
+             </div>
+             <div class="livelloDifficolta box">
+                <p id="livDif"></p>
+             </div>
+              <div class="button">
+                <button id="via">gioca</button>
+            </div>
+         </div>
+         <div class="campoGioco">
+
+         </div>
+         <div class="cover">
+            <div class="result">
+                <h1 id="results">RISULTATO PARTITA</h1>
+                 <P id="punti">PUNTEGGIO PARTITA</P>
+            </div>
+
+            <div class="restart">
+                <button id="rigioca">rigioca</button> <button id="chiudi">chiudi pagina</button>
+            </div>
+         </div>
+       </div>
+    <script src="main.js"></script>
+</body>
+</html>
